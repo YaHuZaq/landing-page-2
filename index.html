@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated dark website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="bust">
+            <a href="" style="text-decoration: underline;">About</a>
+            <a href="">Contact</a>
+            <a href="">Projects</a>
+            <a href="more,html">Rates</a>
+        </nav>
+
+        <img src="side3.png" id="side" onclick="show()">
+        <img src="cancel.png" id="cancel" onclick="hide()">
+    </header>
+    <div class="container1" >
+
+       <div class="diff">
+        <div class="content">
+            <div class="most">  
+             <img src="image1.jpg" alt="">
+             <h2>Dejong</h2>
+             <h3 style=" color: #13e2e2;">Web Developer</h3>
+           </div>  
+           </div>
+         
+               
+           <div class="container2">
+               <h2>About Me</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam repellendus dolorem pariatur, eaque a ea reprehenderit maiores quo, libero modi harum necessitatibus quos! Facilis modi aut nihil recusandae esse perspiciatis.</p>
+               <button>Contact me</button>
+           </div>
+       </div>
+    </div>
+
+    <div class="footer">
+       <div class="first">
+        <h2>Help</h2>
+        <ul>
+            <li>i am new here</li>
+            <li>i need a portfolio</li>
+            <li>i want to learn to code</li>
+        </ul>
+       </div>
+
+       <div class="second">
+        <h2>Support</h2>
+        <ul>
+            <li>Join the supportive community</li>
+            <li>talk to us on social link below</li>
+           
+        </ul>
+       </div>
+
+       <div class="third">
+        <h2>All content</h2>
+        <ul>
+            <li>About</li>
+            <li>contact</li>
+            <li>projects</li>
+            <li>more</li>
+            <li>footer</li>
+        </ul>
+       </div>
+
+       
+        
+       
+        
+       </div>
+    </div>
+
+    <div class="social">
+        <img src="facebook.png" alt="">
+        <img src="whatsapp.png" alt="">
+        <img src="insta.png" alt="">
+        <img src="discord.png" style="mix-blend-mode: multiply;">
+        <img src="tik1.jpg" style="mix-blend-mode: multiply;">
+        <img src="twitter.png" alt="">
+    </div>
+
+    <div class="my">
+        <h2 style=" margin-top: 100px;  text-align: center; color: #13e2e2; font-size: 1.5rem;">© 2022 D.Global Tech. All Rights Reserved</h2>
+    </div>
+
+
+
+
+
+    <script>
+        function show(){
+            document.getElementById("bust").style.display="flex";
+            document.getElementById("cancel").style.display="flex";
+            document.getElementById("side").style.display="none";
+        }
+        function hide(){
+            document.getElementById("bust").style.display="none";
+            document.getElementById("cancel").style.display="none";
+            document.getElementById("side").style.display="block";
+        }
+    </script>
+</body>
+</html>
